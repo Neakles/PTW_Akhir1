@@ -25,13 +25,13 @@
 
         switch ($page){
             case 'home':
-                include "model/home.php";
+                include "model/home.php"; // halaman ini untuk menampilkan beranda
             break;
             case 'artikel':
-                include "model/artikel.php";
+                include "model/artikel.php"; // halaman ini untuk menampilkan artikel tentang laravel
             break;
             case 'contact':
-                include "model/contact.php";
+                include "model/contact.php"; // halaman ini untuk menampilkan contact pemilik web
             break;
             default:
                 echo "<center><h3>Maaf halaman tidak ditemukan!!</h3></center>";
